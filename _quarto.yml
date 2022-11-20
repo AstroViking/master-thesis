@@ -9,6 +9,10 @@ book:
   sidebar:
     search: true
     style: docked
+  repo-url: https://github.com/astroviking/master-thesis/
+  repo-actions: [edit]
+  downloads: [pdf, epub]
+  sharing: [twitter, facebook]
   chapters:
     - index.qmd
     - chapters/abstract.qmd
@@ -39,6 +43,9 @@ format:
   pdf:
     documentclass: scrreprt
     highlight-style: github
+    toc: true
+    number-sections: true
+    colorlinks: true
 
 editor: visual
 
