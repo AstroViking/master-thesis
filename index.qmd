@@ -1,0 +1,5 @@
+# Preface {.unnumbered}
+
+This is a master thesis. It was compiled with the help of Quarto.
+
+To learn more about Quarto visit <https://quarto.org/>.

@@ -1,0 +1,29 @@
+project:
+  type: book
+
+book:
+  title: "Master thesis"
+  author: "Marc Steiner"
+  date: "11/20/2022"
+  sidebar:
+    search: true
+    style: docked
+  chapters:
+    - index.qmd
+    - chapters/abstract.qmd
+    - chapters/intro.qmd
+    - chapters/summary.qmd
+    - chapters/references.qmd
+
+bibliography: bibliography/references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
+
+

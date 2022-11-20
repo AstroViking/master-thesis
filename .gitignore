@@ -1,0 +1,10 @@
+# Remove quarto files
+.quarto/
+_site/
+_book/
+
+# Remove RStudio files
+.Rhistory
+.Rproj.user/
+
+/.quarto/
