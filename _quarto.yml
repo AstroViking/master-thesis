@@ -36,8 +36,8 @@ format:
     link-external-icon: true
     link-external-newwindow: true
     comments:
-      giscus:
-        repo: astroviking/master-thesis
+      hypothesis:
+        theme: clean
 
   pdf:
     documentclass: scrreprt
