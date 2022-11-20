@@ -36,8 +36,7 @@ format:
     link-external-icon: true
     link-external-newwindow: true
     comments:
-      hypothesis:
-        theme: clean
+      hypothesis: true
 
   pdf:
     documentclass: scrreprt
