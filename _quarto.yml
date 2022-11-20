@@ -1,5 +1,6 @@
 project:
   type: book
+  repo: 
 
 book:
   title: "Master thesis"
@@ -19,9 +20,25 @@ bibliography: bibliography/references.bib
 
 format:
   html:
-    theme: cosmo
+    highlight-style: github
+    code-fold: true
+    code-tools:
+      source: repo
+    code-overflow: wrap
+    code-link: true
+    code-line-numbers: true
+    theme:
+      dark: darkly
+      light: flatly
+    link-external-icon: true
+    link-external-newwindow: true
+    comments:
+      giscus:
+        repo: astroviking/master-thesis
+
   pdf:
     documentclass: scrreprt
+    highlight-style: github
 
 editor: visual
 
