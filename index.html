@@ -22,6 +22,88 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
 </style>
 
 
@@ -65,6 +147,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <script async="" src="https://hypothes.is/embed.js"></script>
 
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -82,7 +165,35 @@ ul.task-list li input[type="checkbox"] {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <div class="quarto-title-block"><div><h1 class="title d-none d-lg-block">Master thesis</h1><button type="button" class="btn code-tools-button dropdown-toggle" id="quarto-code-tools-menu" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi"></i> Code</button><ul class="dropdown-menu dropdown-menu-end" aria-labelelledby="quarto-code-tools-menu"><li><a id="quarto-show-all-code" class="dropdown-item" href="javascript:void(0)" role="button">Show All Code</a></li><li><a id="quarto-hide-all-code" class="dropdown-item" href="javascript:void(0)" role="button">Hide All Code</a></li><li><hr class="dropdown-divider"></li><li><a id="quarto-view-source" class="dropdown-item" href="javascript:void(0)" role="button" data-quarto-source-url="https://github.com/astroviking/master-thesis/blob/main/index.qmd">View Source</a></li></ul></div></div>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Marc Steiner </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">November 20, 2022</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
@@ -90,23 +201,9 @@ ul.task-list li input[type="checkbox"] {
       <a href="./">Master thesis</a> 
         <div class="sidebar-tools-main tools-wide">
     <a href="https://github.com/astroviking/master-thesis/" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
-    <a href="" title="Download" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-download"></i></a>
+    <a href="./Master-thesis.pdf" title="Download PDF" class="sidebar-tool px-1"><i class="bi bi-file-pdf"></i></a>
+    <a href="" title="Share" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-share"></i></a>
     <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="./Master-thesis.pdf">
-            <i class="bi bi-bi-file-pdf pe-1"></i>
-          Download PDF
-          </a>
-        </li>
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="./Master-thesis.epub">
-            <i class="bi bi-bi-journal pe-1"></i>
-          Download ePub
-          </a>
-        </li>
-    </ul>
-    <a href="" title="Share" id="sidebar-tool-dropdown-1" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-share"></i></a>
-    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-1">
         <li>
           <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
             <i class="bi bi-bi-twitter pe-1"></i>
@@ -165,48 +262,71 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a></li>
+  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a>
+  <ul class="collapse">
+  <li><a href="#subsection" id="toc-subsection" class="nav-link" data-scroll-target="#subsection">Subsection</a></li>
+  <li><a href="#another-subsection" id="toc-another-subsection" class="nav-link" data-scroll-target="#another-subsection">Another subsection</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/astroviking/master-thesis/edit/main/index.qmd" class="toc-action">Edit this page</a></p></div></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title d-none d-lg-block">Master thesis</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source" data-quarto-source-url="https://github.com/astroviking/master-thesis/blob/main/index.qmd"><i class="bi"></i> Code</button></div></div>
-</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
-
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Marc Steiner </p>
-          </div>
-  </div>
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">November 20, 2022</p>
-    </div>
-  </div>
-  
-    
-  </div>
-  
-
-</header>
 
 <section id="preface" class="level1 unnumbered">
 <h1 class="unnumbered">Preface</h1>
-<p>This is a master thesis. It was compiled with the help of Quarto.</p>
+<p>This is a book created from markdown and executable code.</p>
+<p>See <span class="citation" data-cites="knuth84">(<a href="chapters/references.html#ref-knuth84" role="doc-biblioref">Knuth 1984</a>)</span> for additional discussion of literate programming.</p>
+<p>This is a master thesis. It was compiled with the help of Quarto.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
 <p>To learn more about Quarto visit <a href="https://quarto.org/" class="uri">https://quarto.org/</a>.</p>
+<div class="cell" data-execution_count="1">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="kw">def</span> randomFunction(randomNumber):</span>
+<span id="cb1-2"><a href="#cb1-2"></a></span>
+<span id="cb1-3"><a href="#cb1-3"></a>    <span class="cf">if</span> randomNumber <span class="op">%</span> <span class="dv">5</span> <span class="op">!=</span> <span class="dv">0</span>:</span>
+<span id="cb1-4"><a href="#cb1-4"></a>        <span class="cf">return</span> randomNumber <span class="op">+</span> <span class="dv">5</span><span class="op">;</span></span>
+<span id="cb1-5"><a href="#cb1-5"></a>    </span>
+<span id="cb1-6"><a href="#cb1-6"></a>    <span class="cf">return</span> randomNumber <span class="op">+</span> <span class="dv">5</span><span class="op">;</span></span>
+<span id="cb1-7"><a href="#cb1-7"></a></span>
+<span id="cb1-8"><a href="#cb1-8"></a></span>
+<span id="cb1-9"><a href="#cb1-9"></a><span class="bu">print</span>(randomFunction(<span class="dv">876</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>881</code></pre>
+</div>
+</div>
+<p><span id="eq-simple"><span class="math display">\[
+\sum_{i=0}^n \frac{\sinh{tan(i)}}{{i!}}
+\tag{1}\]</span></span></p>
+<p>This is a reference to equation <a href="#eq-simple">Equation&nbsp;<span>1</span></a>.</p>
+<section id="subsection" class="level2">
+<h2 class="anchored" data-anchor-id="subsection">Subsection</h2>
+<p>This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto.</p>
+<p>This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto.</p>
+</section>
+<section id="another-subsection" class="level2">
+<h2 class="anchored" data-anchor-id="another-subsection">Another subsection</h2>
+<p>This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto.</p>
+<p>This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto.</p>
+<p>This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto.</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
+<div id="ref-knuth84" class="csl-entry" role="doc-biblioentry">
+Knuth, Donald E. 1984. <span>“Literate Programming.”</span> <em>Comput. J.</em> 27 (2): 97–111. <a href="https://doi.org/10.1093/comjnl/27.2.97">https://doi.org/10.1093/comjnl/27.2.97</a>.
+</div>
+</div>
+</section>
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>This is a footnote.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
 </section>
 
 </main> <!-- /main -->
