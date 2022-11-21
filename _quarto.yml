@@ -10,7 +10,7 @@ book:
     style: docked
   repo-url: https://github.com/astroviking/master-thesis/
   repo-actions: [edit]
-  downloads: [pdf, epub]
+  downloads: [pdf]
   sharing: [twitter, facebook]
   chapters:
     - index.qmd
@@ -23,6 +23,7 @@ bibliography: bibliography/references.bib
 
 format:
   html:
+    title-block-banner: true
     highlight-style: github
     code-fold: true
     code-tools:
@@ -39,9 +40,14 @@ format:
       hypothesis: true
 
   pdf:
-    documentclass: scrreprt
+    documentclass: mimosis
+    mainfont: "Source Sans Pro"
+    monofont: "JetBrains Mono"
+
     highlight-style: github
     toc: true
+    #lot: true
+    #lof: true
     number-sections: true
     colorlinks: true
 
