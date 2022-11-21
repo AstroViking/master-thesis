@@ -38,7 +38,6 @@ format:
     theme:
       dark: [darkly, resources/css/theme-dark.scss]
       light: [flatly, resources/css/theme-light.scss]
-    link-external-icon: true
     link-external-newwindow: true
     comments:
       hypothesis: true
