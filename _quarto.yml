@@ -4,14 +4,18 @@ project:
 book:
   title: "Criticality in Deep Neural Networks"
   subtitle: "Master thesis"
-  author: "Marc Steiner"
   date: last-modified
-  sidebar:
-    search: true
+  author:
+    - name: "Marc Steiner"
+      url: astroviking.github.io/master-thesis
+      affiliation: Institute of Neuroinformatics, University of Zurich / ETH Zurich
+      affiliation-url: https://www.ini.uzh.ch
+  #citation: true
   repo-url: https://github.com/astroviking/master-thesis/
   repo-actions: [edit]
   downloads: [pdf]
-  sharing: [twitter, facebook]
+  sharing: [twitter, facebook, linkedin]
+  reader-mode: true
   chapters:
     - index.qmd
     - chapters/abstract.qmd
