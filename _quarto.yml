@@ -2,12 +2,12 @@ project:
   type: book
 
 book:
-  title: "Master thesis"
+  title: "Criticality in Deep Neural Networks"
+  subtitle: "Master thesis"
   author: "Marc Steiner"
-  date: "11/20/2022"
+  date: last-modified
   sidebar:
     search: true
-    style: docked
   repo-url: https://github.com/astroviking/master-thesis/
   repo-actions: [edit]
   downloads: [pdf]
@@ -23,7 +23,7 @@ bibliography: bibliography/references.bib
 
 format:
   html:
-    title-block-banner: true
+    title-block-banner: resources/images/banner-background.webp
     highlight-style: github
     code-fold: true
     code-tools:
@@ -32,8 +32,8 @@ format:
     code-link: true
     code-line-numbers: true
     theme:
-      dark: darkly
-      light: flatly
+      dark: [darkly, resources/css/theme-dark.scss]
+      light: [flatly, resources/css/theme-light.scss]
     link-external-icon: true
     link-external-newwindow: true
     comments:
