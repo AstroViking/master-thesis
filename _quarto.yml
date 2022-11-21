@@ -45,7 +45,7 @@ format:
 
   pdf:
     documentclass: mimosis
-    mainfont: "Source Sans Pro"
+    mainfont: "Lato"
     monofont: "JetBrains Mono"
 
     highlight-style: github
