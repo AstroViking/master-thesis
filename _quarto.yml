@@ -16,6 +16,9 @@ book:
   downloads: [pdf]
   sharing: [twitter, facebook, linkedin]
   reader-mode: true
+  
+  
+  
   chapters:
     - index.qmd
     - chapters/abstract.qmd
@@ -41,12 +44,23 @@ format:
     link-external-newwindow: true
     comments:
       hypothesis: true
+    filters:
+      - lightbox
+    lightbox: auto
 
   pdf:
     documentclass: mimosis
-    mainfont: "Lato"
+    mainfont: "Libertinus Serif"
+    #mainfont: "Domaine Display"
+    #mainfont: "Lato"
+    mathfont: "Noto Sans Math"
     monofont: "JetBrains Mono"
-
+    #include-in-header: 
+      #text: |
+       # \usepackage{libertine}
+       # \usepackage[T1]{fontenc}
+       # \usepackage{amsmath}
+       # \usepackage[lite,subscriptcorrection,slantedGreek,nofontinfo,amsbb,eucal]{mtpro2}
     highlight-style: github
     toc: true
     #lot: true
