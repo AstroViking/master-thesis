@@ -2,7 +2,7 @@
 
 This is a book created from markdown and executable code.
 
-See [@knuth84] for additional discussion of literate programming.
+See [@Knuth1984-ih] for additional discussion of literate programming.
 
 [^1]: This is a footnote.
 
