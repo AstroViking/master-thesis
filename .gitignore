@@ -10,3 +10,6 @@
 # Remove Python files
 .ipynb_checkpoints
 
+# Remove downloaded latex_packages
+/latex_packages
+

@@ -17,8 +17,6 @@ book:
   sharing: [twitter, facebook, linkedin]
   reader-mode: true
   
-  
-  
   chapters:
     - index.qmd
     - chapters/abstract.qmd
@@ -49,18 +47,13 @@ format:
     lightbox: auto
 
   pdf:
+    template: resources/latex/mt2pro-template.tex
     documentclass: mimosis
     mainfont: "Libertinus Serif"
     #mainfont: "Domaine Display"
     #mainfont: "Lato"
-    mathfont: "Noto Sans Math"
+    #mathfont: "Noto Sans Math"
     monofont: "JetBrains Mono"
-    #include-in-header: 
-      #text: |
-       # \usepackage{libertine}
-       # \usepackage[T1]{fontenc}
-       # \usepackage{amsmath}
-       # \usepackage[lite,subscriptcorrection,slantedGreek,nofontinfo,amsbb,eucal]{mtpro2}
     highlight-style: github
     toc: true
     #lot: true
