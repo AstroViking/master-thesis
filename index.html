@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Marc Steiner">
-<meta name="dcterms.date" content="2022-11-21">
+<meta name="dcterms.date" content="2022-12-03">
 
 <title>Criticality in Deep Neural Networks</title>
 <style>
@@ -201,7 +201,7 @@ background-size: cover;
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">November 21, 2022</p>
+        <p class="date">December 3, 2022</p>
       </div>
     </div>
     
@@ -306,30 +306,36 @@ background-size: cover;
 <section id="preface" class="level1 unnumbered">
 <h1 class="unnumbered">Preface</h1>
 <p>This is a book created from markdown and executable code.</p>
-<p>See <span class="citation" data-cites="knuth84">(<a href="chapters/references.html#ref-knuth84" role="doc-biblioref">Knuth 1984</a>)</span> for additional discussion of literate programming.</p>
+<p>See <span class="citation" data-cites="Knuth1984-ih">(<a href="chapters/references.html#ref-Knuth1984-ih" role="doc-biblioref">Knuth 1984</a>)</span> for additional discussion of literate programming.</p>
 <p>This is a master thesis. It was compiled with the help of Quarto.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
 <p>To learn more about Quarto visit <a href="https://quarto.org/" class="uri">https://quarto.org/</a>.</p>
 <div class="cell" data-execution_count="1">
 <details>
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="kw">def</span> randomFunction(randomNumber):</span>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="kw">def</span> isEven(number):</span>
 <span id="cb1-2"><a href="#cb1-2"></a></span>
-<span id="cb1-3"><a href="#cb1-3"></a>    <span class="cf">if</span> randomNumber <span class="op">%</span> <span class="dv">5</span> <span class="op">!=</span> <span class="dv">0</span>:</span>
-<span id="cb1-4"><a href="#cb1-4"></a>        <span class="cf">return</span> randomNumber <span class="op">+</span> <span class="dv">5</span><span class="op">;</span></span>
+<span id="cb1-3"><a href="#cb1-3"></a>    <span class="cf">if</span> number <span class="op">%</span> <span class="dv">2</span> <span class="op">==</span> <span class="dv">0</span>:</span>
+<span id="cb1-4"><a href="#cb1-4"></a>        <span class="cf">return</span> <span class="va">True</span></span>
 <span id="cb1-5"><a href="#cb1-5"></a>    </span>
-<span id="cb1-6"><a href="#cb1-6"></a>    <span class="cf">return</span> randomNumber <span class="op">+</span> <span class="dv">5</span><span class="op">;</span></span>
+<span id="cb1-6"><a href="#cb1-6"></a>    <span class="cf">return</span> <span class="va">False</span></span>
 <span id="cb1-7"><a href="#cb1-7"></a></span>
 <span id="cb1-8"><a href="#cb1-8"></a></span>
-<span id="cb1-9"><a href="#cb1-9"></a><span class="bu">print</span>(randomFunction(<span class="dv">876</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-9"><a href="#cb1-9"></a><span class="bu">print</span>(isEven(<span class="dv">876</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
-<pre><code>881</code></pre>
+<pre><code>True</code></pre>
 </div>
 </div>
-<p><span id="eq-simple"><span class="math display">\[
-\sum_{i=0}^n \frac{\sinh{tan(i)}}{{i!}}
+<p><span id="eq-simple1"><span class="math display">\[
+\sqrt{a^2+b^2=c^2}
 \tag{1}\]</span></span></p>
-<p>This is a reference to equation <a href="#eq-simple">Equation&nbsp;<span>1</span></a>.</p>
+<p><span id="eq-simple2"><span class="math display">\[
+\sqrt{\sum_{i=0}^\infty \frac{\sinh{tan(x)}}{{i!}}}
+\tag{2}\]</span></span></p>
+<p><span id="eq-simple3"><span class="math display">\[
+\sqrt{\sqrt{\sqrt{\sqrt{a^2+b^2=c^2}}}}
+\tag{3}\]</span></span></p>
+<p>This is a reference to equation <a href="#eq-simple1">Equation&nbsp;<span>1</span></a>.</p>
 <section id="subsection" class="level2">
 <h2 class="anchored" data-anchor-id="subsection">Subsection</h2>
 <p>This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto.</p>
@@ -343,8 +349,8 @@ background-size: cover;
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
-<div id="ref-knuth84" class="csl-entry" role="doc-biblioentry">
-Knuth, Donald E. 1984. <span>“Literate Programming.”</span> <em>Comput. J.</em> 27 (2): 97–111. <a href="https://doi.org/10.1093/comjnl/27.2.97">https://doi.org/10.1093/comjnl/27.2.97</a>.
+<div id="ref-Knuth1984-ih" class="csl-entry" role="doc-biblioentry">
+Knuth, D E. 1984. <span>“Literate Programming.”</span> <em>Comput. J.</em> 27 (2): 97–111.
 </div>
 </div>
 </section>

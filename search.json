@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Criticality in Deep Neural Networks",
     "section": "",
-    "text": "Preface\nThis is a book created from markdown and executable code.\nSee (Knuth 1984) for additional discussion of literate programming.\nThis is a master thesis. It was compiled with the help of Quarto.1\nTo learn more about Quarto visit https://quarto.org/.\n\\[\n\\sum_{i=0}^n \\frac{\\sinh{tan(i)}}{{i!}}\n\\tag{1}\\]\nThis is a reference to equation Equation 1."
+    "text": "Preface\nThis is a book created from markdown and executable code.\nSee (Knuth 1984) for additional discussion of literate programming.\nThis is a master thesis. It was compiled with the help of Quarto.1\nTo learn more about Quarto visit https://quarto.org/.\n\\[\n\\sqrt{a^2+b^2=c^2}\n\\tag{1}\\]\n\\[\n\\sqrt{\\sum_{i=0}^\\infty \\frac{\\sinh{tan(x)}}{{i!}}}\n\\tag{2}\\]\n\\[\n\\sqrt{\\sqrt{\\sqrt{\\sqrt{a^2+b^2=c^2}}}}\n\\tag{3}\\]\nThis is a reference to equation Equation 1."
   },
   {
     "objectID": "index.html#subsection",
@@ -18,7 +18,7 @@
     "href": "index.html#another-subsection",
     "title": "Criticality in Deep Neural Networks",
     "section": "Another subsection",
-    "text": "Another subsection\nThis is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto.\nThis is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto.\nThis is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "text": "Another subsection\nThis is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto.\nThis is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto.\nThis is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto. This is a master thesis. It was compiled with the help of Quarto.\n\n\n\n\nKnuth, D E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111."
   },
   {
     "objectID": "chapters/abstract.html",
@@ -46,6 +46,6 @@
     "href": "chapters/references.html",
     "title": "References",
     "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "text": "Knuth, D E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111."
   }
 ]
