@@ -1,5 +1,6 @@
 project:
   type: book
+  pre-render: scripts/install_mt2prolite.py
 
 book:
   title: "Criticality in Deep Neural Networks"
@@ -10,7 +11,6 @@ book:
       url: astroviking.github.io/master-thesis
       affiliation: Institute of Neuroinformatics, University of Zurich / ETH Zurich
       affiliation-url: https://www.ini.uzh.ch
-  #citation: true
   repo-url: https://github.com/astroviking/master-thesis/
   repo-actions: [edit]
   downloads: [pdf]
@@ -28,17 +28,20 @@ bibliography: bibliography/references.bib
 
 format:
   html:
+    monofont: "JetBrains Mono"
     title-block-banner: resources/images/banner-background.webp
     highlight-style: github
     code-fold: true
     code-tools:
       source: repo
-    code-overflow: wrap
+    code-overflow: scroll
     code-link: true
     code-line-numbers: true
     theme:
-      dark: [darkly, resources/css/theme-dark.scss]
-      light: [flatly, resources/css/theme-light.scss]
+      dark: [darkly, resources/css/theme-dark.scss, resources/scss/JetBrainsMono.scss]
+      light: [flatly, resources/css/theme-light.scss, resources/scss/JetBrainsMono.scss]
+    resource-path: 
+      - resources/fonts/JetBrainsMono
     link-external-newwindow: true
     comments:
       hypothesis: true
@@ -47,12 +50,12 @@ format:
     lightbox: auto
 
   pdf:
-    template: resources/latex/mt2pro-template.tex
+    # Uses MathTime Professional 2 Fonts, comment out if not installed
+    template: resources/latex-template/template.tex
+    latex-input-paths: 
+      - "resources/latex-template/"
     documentclass: mimosis
-    mainfont: "Libertinus Serif"
-    #mainfont: "Domaine Display"
-    #mainfont: "Lato"
-    #mathfont: "Noto Sans Math"
+    mainfont: "STIX Two Text"
     monofont: "JetBrains Mono"
     highlight-style: github
     toc: true

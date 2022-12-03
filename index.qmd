@@ -26,10 +26,18 @@ print(isEven(876))
 ```
 
 $$
-\sqrt{\sum_{i=0}^\infty \frac{\sinh{tan(i)}}{{i!}}}
-$$ {#eq-simple}
+\sqrt{a^2+b^2=c^2}
+$$ {#eq-simple1}
 
-This is a reference to equation @eq-simple.
+$$
+\sqrt{\sum_{i=0}^\infty \frac{\sinh{tan(x)}}{{i!}}}
+$$ {#eq-simple2}
+
+$$
+\sqrt{\sqrt{\sqrt{\sqrt{a^2+b^2=c^2}}}}
+$$ {#eq-simple3}
+
+This is a reference to equation @eq-simple1.
 
 ## Subsection
 
