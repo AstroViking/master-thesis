@@ -13,3 +13,5 @@
 # Remove downloaded latex_packages
 /latex_packages
 
+
+/.luarc.json
